@@ -1,5 +1,6 @@
 {
 	"name": "mage2pro/facebook"
+	,"version": "1.0.0"
 	,"description": "Facebook APIs."
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/mage2pro/facebook"
