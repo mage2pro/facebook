@@ -1,7 +1,7 @@
 <script>
 	window.fbAsyncInit = function() {
 		FB.init({
-			appId: '<?php echo \Df\Facebook\Settings::s()->appId(); ?>'
+			appId: '<?php echo df_ejs(\Df\Facebook\Settings::s()->appId()); ?>'
 			, xfbml: true
 			, version: 'v2.4'
 		});
