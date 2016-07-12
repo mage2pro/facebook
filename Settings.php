@@ -1,5 +1,6 @@
 <?php
 namespace Df\Facebook;
+/** @method static Settings s() */
 class Settings extends \Df\Core\Settings {
 	/** @return string */
 	public function appId() {return $this->v('app_id');}
@@ -10,7 +11,4 @@ class Settings extends \Df\Core\Settings {
 	 * @return string
 	 */
 	protected function prefix() {return 'dfe_facebook/credentials/';}
-
-	/** @return self */
-	public static function s() {static $r; return $r ? $r : $r = df_o(__CLASS__);}
 }
