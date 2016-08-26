@@ -1,7 +1,7 @@
 <?php
 namespace Df\Facebook;
 /** @method static Settings s() */
-class Settings extends \Df\Core\Settings {
+final class Settings extends \Df\Core\Settings {
 	/** @return string */
 	public function appId() {return $this->v('app_id');}
 
