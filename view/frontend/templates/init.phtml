@@ -1,6 +1,11 @@
+<?php
+/**
+ * @var string $appId
+ * @used-by \Df\Facebook\I::init()
+ */
+?>
 <script>
-var appId = '<?php echo df_ejs(\Df\Facebook\Settings::s()->appId()); ?>';
 require(['//connect.facebook.net/en_US/sdk.js'], function() {
-	FB.init({appId: appId, xfbml: true, version: 'v2.4'});
+	FB.init({appId: '<?php echo df_ejs($appId); ?>', xfbml: true, version: 'v2.4'});
 });
 </script>
