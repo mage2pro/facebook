@@ -6,15 +6,15 @@ namespace Df\Facebook;
  * Этот класс нельзя объявлять как final, потому что от него наследуется класс
  * @see \Dfe\FacebookLogin\Settings\Credentials
  */
-class Settings extends \Df\Core\Settings {
+class Settings extends \Df\Config\Settings {
 	/** @return string */
 	public function appId() {return $this->v('app_id');}
 
 	/**
 	 * @override
-	 * @see \Df\Core\Settings::prefix()
-	 * @used-by \Df\Core\Settings::v()
+	 * @see \Df\Config\Settings::prefix()
+	 * @used-by \Df\Config\Settings::v()
 	 * @return string
 	 */
-	protected function prefix() {return 'dfe_facebook/credentials/';}
+	protected function prefix() {return 'dfe_facebook/credentials';}
 }
