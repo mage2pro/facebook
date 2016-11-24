@@ -5,7 +5,7 @@
 >
 	<system>
 		<section
-			id='dfe_facebook'
+			id='df_facebook'
 			translate='label'
 			type='text'
 			showInDefault='1'

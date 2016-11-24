@@ -16,5 +16,5 @@ class Settings extends \Df\Config\Settings {
 	 * @used-by \Df\Config\Settings::v()
 	 * @return string
 	 */
-	protected function prefix() {return 'dfe_facebook/credentials';}
+	protected function prefix() {return 'df_facebook/credentials';}
 }
