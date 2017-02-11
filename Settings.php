@@ -8,7 +8,7 @@ namespace Df\Facebook;
  */
 class Settings extends \Df\Config\Settings {
 	/** @return string */
-	public function appId() {return $this->v('app_id');}
+	function appId() {return $this->v('app_id');}
 
 	/**
 	 * @override
