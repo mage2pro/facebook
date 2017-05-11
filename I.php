@@ -6,7 +6,7 @@ class I {
 	static function init() {return dfcf(function() {
 		/** @var string|null $appId */
 		$appId = S::s()->appId();
-		return !$appId ? '' : df_phtml(__CLASS__, 'init', ['appId' => $appId]);
+		return !$appId ? '' : df_block_output(__CLASS__, 'init', ['appId' => $appId]);
 	});}
 }
 
