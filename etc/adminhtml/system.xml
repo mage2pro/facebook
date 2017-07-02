@@ -7,7 +7,6 @@
 		<section
 			id='df_facebook'
 			translate='label'
-			type='text'
 			showInDefault='1'
 			showInWebsite='1'
 			showInStore='1'
@@ -20,7 +19,6 @@
 			<group
 				id='credentials'
 				translate='label'
-				type='text'
 				sortOrder='1'
 				showInDefault='1'
 				showInWebsite='1'
