@@ -6,10 +6,8 @@
 	<system>
 		<section
 			id='df_facebook'
+			showInDefault='1' showInStore='1' showInWebsite='1'
 			translate='label'
-			showInDefault='1'
-			showInWebsite='1'
-			showInStore='1'
 		>
 			<tab>_df</tab>
 			<label>Facebook</label>
@@ -18,21 +16,17 @@
 			<resource>Dfe_Facebook::config</resource>
 			<group
 				id='credentials'
-				translate='label'
+				showInDefault='1' showInStore='0' showInWebsite='1'
 				sortOrder='1'
-				showInDefault='1'
-				showInWebsite='1'
-				showInStore='0'
+				translate='label'
 			>
 				<label>OAuth Credentials</label>
 				<field
 					id='app_id'
+					showInDefault='1' showInStore='0' showInWebsite='1'
+					sortOrder='1'
 					translate='label'
 					type='text'
-					sortOrder='1'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='0'
 				>
 					<label>App ID</label>
 					<comment><![CDATA[<a href='https://discourse.pro/t/15'>How to get it?</a>]]></comment>
