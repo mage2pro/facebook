@@ -1,11 +1,12 @@
 <?php
 /**
- * @var string $appId
+ * 2016-04-06
  * @used-by \Df\Facebook\I::init()
+ * @var string $appId
  */
 ?>
 <script>
 require(['//connect.facebook.net/en_US/sdk.js'], function() {
-	FB.init({appId: '<?php echo df_ejs($appId); ?>', xfbml: true, version: 'v2.8'});
+	FB.init({appId: '<?= df_ejs($appId); ?>', xfbml: true, version: 'v2.8'});
 });
 </script>

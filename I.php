@@ -1,8 +1,9 @@
 <?php
 namespace Df\Facebook;
 use Df\Facebook\Settings as S;
+// 2016-04-09
 class I {
-	/** @return string */
+	/** 2016-04-09 @return string */
 	static function init() {return dfcf(function() {
 		/** @var string|null $appId */
 		$appId = S::s()->appId();
