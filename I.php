@@ -5,8 +5,7 @@ use Df\Facebook\Settings as S;
 class I {
 	/** 2016-04-09 @return string */
 	static function init() {return dfcf(function() {
-		/** @var string|null $appId */
-		$appId = S::s()->appId();
+		$appId = S::s()->appId(); /** @var string|null $appId */
 		return !$appId ? '' : df_block_output(__CLASS__, 'init', ['appId' => $appId]);
 	});}
 }
