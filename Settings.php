@@ -5,7 +5,10 @@ namespace Df\Facebook;
  * @see \Dfe\FacebookLogin\Settings\Credentials
  */
 class Settings extends \Df\Config\Settings {
-	/** @used-by \Df\Facebook\I::init() */
+	/**
+	 * @used-by \Df\Facebook\I::init()
+	 * @used-by \Dfe\FacebookLogin\Customer::longLivedAccessToken()
+	 */
 	function appId():string {return $this->v('app_id');}
 
 	/**
