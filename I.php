@@ -1,6 +1,6 @@
 <?php
-namespace Df\Facebook;
-use Df\Facebook\Settings as S;
+namespace Dfe\Facebook;
+use Dfe\Facebook\Settings as S;
 # 2016-04-09
 class I {
 	/**
