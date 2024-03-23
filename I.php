@@ -13,5 +13,3 @@ class I {
 		return !$appId ? '' : df_block_output(__CLASS__, 'init', ['appId' => $appId]);
 	});}
 }
-
-
